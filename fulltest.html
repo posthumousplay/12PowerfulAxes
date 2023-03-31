@@ -22,7 +22,7 @@
 
 
 <script>
-    var max_a, max_b, max_c, max_d, max_e, max_f, max_x, max_g, max_h, max_i; max_j; max_k; // Max possible scores
+    var max_a, max_b, max_c, max_d, max_e, max_f, max_x, max_g, max_h; max_i, max_j, max_k, // Max possible scores
     max_a = max_b = max_c = max_d = max_e = max_f = max_x = max_g = max_h = max_i = max_j = max_k = 0;
     let a_array = new Array(questions.length);
     let b_array = new Array(questions.length);
@@ -38,19 +38,19 @@
     let k_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
-    for (var i = 0; i < questions.length; i++) {
-        max_a += Math.abs(questions[i].effect.a)
-        max_b += Math.abs(questions[i].effect.b)
-        max_c += Math.abs(questions[i].effect.c)
-        max_d += Math.abs(questions[i].effect.d)
-        max_e += Math.abs(questions[i].effect.e)
-        max_f += Math.abs(questions[i].effect.f)
-        max_x += Math.abs(questions[i].effect.x)
-        max_g += Math.abs(questions[i].effect.g)
-        max_h += Math.abs(questions[i].effect.h)
-        max_i += Math.abs(questions[i].effect.i)
-        max_j += Math.abs(questions[j].effect.j)
-        max_k += Math.abs(questions[i].effect.k)
+    for (var y = 0; i < questions.length; y++) {
+        max_a += Math.abs(questions[y].effect.a)
+        max_b += Math.abs(questions[y].effect.b)
+        max_c += Math.abs(questions[y].effect.c)
+        max_d += Math.abs(questions[y].effect.d)
+        max_e += Math.abs(questions[y].effect.e)
+        max_f += Math.abs(questions[y].effect.f)
+        max_x += Math.abs(questions[y].effect.x)
+        max_g += Math.abs(questions[y].effect.g)
+        max_h += Math.abs(questions[y].effect.h)
+        max_i += Math.abs(questions[y].effect.i)
+        max_j += Math.abs(questions[y].effect.j)
+        max_k += Math.abs(questions[y].effect.k)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
