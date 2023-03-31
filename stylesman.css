@@ -1,0 +1,283 @@
+html {
+    background-color: #999999;
+    padding: 0px;
+}
+body {
+    width: 80%;
+    min-height: calc(100vh - 4em);
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #333333;
+    border-color: #555555;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+}
+p, li {
+    color: #333333;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-size: 16pt;
+    line-height: 1;
+    margin: 4pt;
+}
+a{
+    color: #2222DD;
+}
+a:hover{
+    color: #22DDDD;
+}
+p.value-description {
+    text-indent: -16pt;
+    margin-left: 20pt;
+}
+p.question {
+    margin: 16pt auto;
+    color: #222222;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    min-width: 500pt;
+    min-height: 144pt;
+    background-color: #333333;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h1 {
+    color: #111111;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-size: 72pt;
+    text-align: center;
+    line-height: 72pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+.ideology {
+    text-align: center;
+}
+h2 {
+    color: #333333;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+}
+li {
+    font-size: 16pt;
+    text-indent: 16pt;
+}
+a {
+    font-family: inherit;
+}
+img.center {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    min-width: 500pt;
+}
+.button {
+    background-color: #1d79c4;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: -2px auto;
+    cursor: pointer;
+}
+.small_button, .small_button_off {
+    background-color: #222;
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 10%;
+    min-width: 100pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    margin: -2px auto;
+    cursor: pointer;
+}
+.small_button_off {
+    background-color: #ddd;
+    color: #555;
+    border: 2px solid #555;
+    cursor: not-allowed;
+    margin: -4px auto;
+}
+div.axis {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.bar {
+    height: 36pt;
+    line-height: 36pt;
+    padding: 8pt;
+    margin-top: 4pt;
+    margin-bottom: 4pt;
+    border-width: 4px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #111;
+    background-color: #555;
+    display: block;
+    width: 50%;
+}
+div.text-wrapper {
+    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #111;
+    display: inline-block;
+}
+div.Personal Metaphysics {
+    background-color: #87B044;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Impersonal Metaphysics {
+    background-color: #8871BD;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Glowie-Type Relations {
+    background-color: #87B044;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Tukame-Type Relations {
+    background-color: #8871BD;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Civilization Flexibility {
+    background-color: #87B044;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Civilization Holism {
+    background-color: #8871BD;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Interpersonal Reactivity {
+    background-color: #87B044;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Interpesonal Permission {
+    background-color: #8871BD;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Economical Control {
+    background-color: #ED0C14;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Economical Liberty {
+    background-color: #3179C2;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Collectivism {
+    background-color: #ED0C14;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Individualism {
+    background-color: #3179C2;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Reformation {
+    background-color: #ED0C14;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Conservation {
+    background-color: #3179C2;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Tech & Progress {
+    background-color: #ED0C14;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Mammoth & Regress {
+    background-color: #3179C2;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Libertarianism {
+    background-color: #ED0C14;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Authoritarianism {
+    background-color: #3179C2;
+    text-align: right;
+    border-left-style: solid;
+}
+div.Ecology & Other Left {
+    background-color: #ED0C14;
+    text-align: left;
+    border-left-style: solid;
+}
+div.Disecology & Other Right {
+    background-color: #3179C2;
+    text-align: right;
+    border-right-style: solid;
+}
+div.Alternative Values {
+    background-color: #4F5C6E;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Classic Values {
+    background-color: #C9793C;
+    text-align: right;
+    border-right-style: solid;
+}
+div.Violation {
+    background-color: #4F5C6E;
+    text-align: left;
+    border-right-style: solid;
+}
+div.Academicism {
+    background-color: #C9793C;
+    text-align: right;
+    border-right-style: solid;
+}
+span.weight-300 {
+    font-weight: 300;
+}
+canvas {
+    border-color: #111;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8pt;
+    display: block;
+    margin: 8pt;
+    margin-left: auto;
+    margin-right: auto;
+}
