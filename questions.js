@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "South beliefs is true beliefs..",
+        "question": "South beliefs is true beliefs.",
         "effect": {
             "a": 10,
             "b": 10,
