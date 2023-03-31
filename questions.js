@@ -19,7 +19,7 @@ questions = {;
    {
         "question": "Left-wing beliefs can change world in good way.",
         "effect": {
-            "a": 20,
+            "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
