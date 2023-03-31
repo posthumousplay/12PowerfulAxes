@@ -1,4 +1,4 @@
-questions = [
+questions = {;
     {
         "question": "South beliefs is true beliefs.",
         "effect": {
@@ -15,8 +15,8 @@ questions = [
             "j": 0,
             "k": 0
         }
-    },    
-  {
+     },    
+   {
         "question": "Left-wing beliefs can change world in good way.",
         "effect": {
             "a": 20,
@@ -32,8 +32,8 @@ questions = [
             "j": 0,
             "k": 0
         }
-    },
-      {
+      },
+    {
         "question": "Rotation is better than mainstream beliefs.",
         "effect": {
             "a": 0,
@@ -49,5 +49,5 @@ questions = [
             "j": 10,
             "k": 10
         }
-    },
-  };
+      },
+   };
