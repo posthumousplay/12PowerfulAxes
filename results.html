@@ -190,46 +190,46 @@ stats"></a></div></noscript>
     alternative values = (100 - classic values ).toFixed(1)
     violation = (100 - academicism).toFixed(1)
 
-    setBarValue("pm", personal metaphysics)
-    setBarValue("imp", impersonal metaphysics)
-    setBarValue("gt", glowie-type relations)
-    setBarValue("tt", tukame-type relations)
-    setBarValue("cflex", civilization flexibility)
-    setBarValue("chol", civilization holism)
-    setBarValue("react", interpersonal reactivity)
-    setBarValue("permission", interpersonal permission)
-    setBarValue("econcon", economic control)
-    setBarValue("econlib", economic liberty)
-    setBarValue("collect", collectivism)
-    setBarValue("individ", individualism)
-    setBarValue("reform", reformation)
-    setBarValue("conserve", conservation)
-    setBarValue("techprog", tech and progress)
-    setBarValue("mamregress", mammoth and regress)
-    setBarValue("libertare", libertarianism)
-    setBarValue("auth", authoritarianism)
-    setBarValue("ecolog", ecology and other left)
-    setBarValue("diseco", disecology and other right)
-    setBarValue("altvalues", alternative values)
-    setBarValue("classic", classic values)
+    setBarValue("personal metaphysics", personal metaphysics)
+    setBarValue("impersonal metaphysics", impersonal metaphysics)
+    setBarValue("glowie-type relations", glowie-type relations)
+    setBarValue("tukame-type relations", tukame-type relations)
+    setBarValue("civilization flexibility", civilization flexibility)
+    setBarValue("civilization holism", civilization holism)
+    setBarValue("interpersonal reactivity", interpersonal reactivity)
+    setBarValue("interpersonal permission", interpersonal permission)
+    setBarValue("economic control", economic control)
+    setBarValue("economic liberty", economic liberty)
+    setBarValue("collectivism", collectivism)
+    setBarValue("individualism", individualism)
+    setBarValue("reformation", reformation)
+    setBarValue("conservation", conservation)
+    setBarValue("tech and progress", tech and progress)
+    setBarValue("mammoth and regress", mammoth and regress)
+    setBarValue("libertarianism", libertarianism)
+    setBarValue("authoritarianism", authoritarianism)
+    setBarValue("ecology and other left", ecology and other left)
+    setBarValue("disecology and other right", disecology and other right)
+    setBarValue("alternative values", alternative values)
+    setBarValue("classic values", classic values)
     setBarValue("violation", violation)
-    setBarValue("academic", academicism)
+    setBarValue("academicism", academicism)
     
         }
     }
     
+    document.getElementById("metaphysical-label").innerHTML = setLabel(equality, metaArray)
+    document.getElementById("relationship-label").innerHTML = setLabel(peace, relaArray)
+    document.getElementById("civilization-label").innerHTML = setLabel(liberty, civArray)
+    document.getElementById("reactivity-label").innerHTML = setLabel(progress, reactArray)
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+    document.getElementById("identity-label").innerHTML = setLabel(peace, idenArray)
+    document.getElementById("reform-label").innerHTML = setLabel(liberty, reformArray)
+    document.getElementById("progress-label").innerHTML = setLabel(progress, techArray)
+    document.getElementById("civil-label").innerHTML = setLabel(equality, civilArray)
+    document.getElementById("political-label").innerHTML = setLabel(peace, polArray)
+    document.getElementById("category-label").innerHTML = setLabel(liberty, catArray)
+    document.getElementById("behavioral-label").innerHTML = setLabel(progress, behaArray)
 
     ideology = ""
     ideodist = Infinity
@@ -285,7 +285,7 @@ stats"></a></div></noscript>
         ctx.drawImage(img, 20, 530, 100, 100)
         img = document.getElementById("img-42")
         ctx.drawImage(img, 680, 530, 100, 100)
-         img = document.getElementById("img-51")
+        img = document.getElementById("img-51")
         ctx.drawImage(img, 20, 650, 100, 100);
         img = document.getElementById("img-52")
         ctx.drawImage(img, 680, 650, 100, 100)
@@ -323,93 +323,101 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
+	ctx.fillRect(120, 660, 560, 80)
+        ctx.fillRect(120, 780, 560, 80)
+        ctx.fillRect(120, 900, 560, 80)
+        ctx.fillRect(120, 1020, 560, 80)
+	ctx.fillRect(120, 1140, 560, 80)
+        ctx.fillRect(120, 1260, 560, 80)
+        ctx.fillRect(120, 1380, 560, 80)
+        ctx.fillRect(120, 1500, 560, 80)
         ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
+        ctx.fillRect(120, 184, 5.6*personal metaphysics-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
+        ctx.fillRect(682-5.6*impersonal metaphysics, 184, 5.6*impersonal metaphysics-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
+        ctx.fillRect(120, 304, 5.6*glowie-type relations-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
+        ctx.fillRect(682-5.6*tukame-type relations, 304, 5.6*tukame-type relations-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
+        ctx.fillRect(120, 424, 5.6*civilization flexibility-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
+        ctx.fillRect(682-5.6*civilization holism, 424, 5.6*civilization holism-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
+        ctx.fillRect(120, 544, 5.6*interpersonal reactivity-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
+        ctx.fillRect(682-5.6*interpersonal permission, 544, 5.6*interpersonal permission-2, 72)
         ctx.fillStyle="#222222"
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
+        ctx.fillRect(120, 664, 5.6*economical control-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
+        ctx.fillRect(682-5.6*economical liberty, 664, 5.6*economical liberty-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
+        ctx.fillRect(120, 784, 5.6*collectivism-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
+        ctx.fillRect(682-5.6*individualism, 784, 5.6*individualism-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
+        ctx.fillRect(120, 904, 5.6*reformation-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
+        ctx.fillRect(682-5.6*conservation, 904, 5.6*conservation-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
+        ctx.fillRect(120, 1024, 5.6*tech and progress-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
+        ctx.fillRect(682-5.6*mammoth and regress, 1024, 5.6*mammoth and regress-2, 72)
         ctx.fillStyle="#222222"
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
+        ctx.fillRect(120, 1144, 5.6*libertarianism-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
+        ctx.fillRect(682-5.6*authoritarianism, 1144, 5.6*authoritarianism-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
+        ctx.fillRect(120, 1264, 5.6*ecology and other left-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
+        ctx.fillRect(682-5.6*disecology and other right, 1264, 5.6*disecology and other right-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
+        ctx.fillRect(120, 1384, 5.6*alternative values-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
+        ctx.fillRect(682-5.6*classic values, 1384, 5.6*classic values-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
+        ctx.fillRect(120, 1504, 5.6*violation-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
+        ctx.fillRect(682-5.6*academicism, 1504, 5.6*academicism-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("8values", 20, 90)
+        ctx.fillText("12PowefulAxes", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
+        if (personal metaphysics  > 30) {ctx.fillText(personal metaphysics + "%", 130, 237.5)}
+        if (glowie-type relations     > 30) {ctx.fillText(glowie-type relations + "%", 130, 357.5)}
+        if (lcivilization flexibility   > 30) {ctx.fillText(civilization flexibility + "%", 130, 477.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+        if (equality  > 30) {ctx.fillText(equality + "%", 130, 717.5)}
+        if (might     > 30) {ctx.fillText(might + "%", 130, 837.5)}
+        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 957.5)}
+        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 1077.5)}
+        if (equality  > 30) {ctx.fillText(equality + "%", 130, 1197.5)}
+        if (might     > 30) {ctx.fillText(might + "%", 130, 1317.5)}
+        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 1437.5)}
+        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 1557.5)}
         ctx.textAlign="right"
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
+        if (impersonal metaphysics    > 30) {ctx.fillText(impersonal metaphysics + "%", 670, 237.5)}
+        if (tukame type relations     > 30) {ctx.fillText(tukame type relations + "%", 670, 357.5)}
+        if (civilization holism > 30) {ctx.fillText(civilization holism + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 717.5)}
+        if (peace     > 30) {ctx.fillText(peace + "%", 670, 837.5)}
+        if (authority > 30) {ctx.fillText(authority + "%", 670, 957.5)}
+        if (progress  > 30) {ctx.fillText(progress + "%", 670, 1077.5)}
+        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 1197.5)}
+        if (peace     > 30) {ctx.fillText(peace + "%", 670, 1317.5)}
+        if (authority > 30) {ctx.fillText(authority + "%", 670, 1437.5)}
+        if (progress  > 30) {ctx.fillText(progress + "%", 670, 1557.5)}
 
         ctx.font="300 30px Montserrat"
         ctx.fillText("12 Powerful Axes Test", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText("Economic Axis: " + document.getElementById("metaphysical-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
