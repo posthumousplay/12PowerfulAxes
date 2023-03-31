@@ -4,7 +4,7 @@ html {
 }
 body {
     width: 80%;
-    min-height: calc(100vh - 4em);
+    min-height: calc (100vh - 4em);
     margin: 0 auto;
     padding: 2em;
     background-color: #333333;
@@ -86,7 +86,7 @@ img.center {
     font-family: 'Noto+Sans+Mono', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: white;
+    color: #211111;
     padding: 8pt;
     width: 50%;
     min-width: 500pt;
@@ -102,7 +102,7 @@ img.center {
     font-family: 'Noto+Sans+Mono', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: white;
+    color: #211111;
     padding: 8pt;
     width: 10%;
     min-width: 100pt;
@@ -148,122 +148,122 @@ div.text-wrapper {
     color: #111;
     display: inline-block;
 }
-div.Personal Metaphysics {
+div.pm {
     background-color: #87B044;
     text-align: left;
     border-right-style: solid;
 }
-div.Impersonal Metaphysics {
+div.imp {
     background-color: #8871BD;
     text-align: right;
     border-left-style: solid;
 }
-div.Glowie-Type Relations {
+div.gt {
     background-color: #87B044;
     text-align: left;
     border-right-style: solid;
 }
-div.Tukame-Type Relations {
+div.tt {
     background-color: #8871BD;
     text-align: right;
     border-left-style: solid;
 }
-div.Civilization Flexibility {
+div.cflex {
     background-color: #87B044;
     text-align: left;
     border-right-style: solid;
 }
-div.Civilization Holism {
+div.chol {
     background-color: #8871BD;
     text-align: right;
     border-left-style: solid;
 }
-div.Interpersonal Reactivity {
+div.react {
     background-color: #87B044;
     text-align: left;
     border-right-style: solid;
 }
-div.Interpesonal Permission {
+div.permission {
     background-color: #8871BD;
     text-align: right;
     border-left-style: solid;
 }
-div.Economical Control {
+div.econcon {
     background-color: #ED0C14;
     text-align: left;
     border-right-style: solid;
 }
-div.Economical Liberty {
+div.econlib {
     background-color: #3179C2;
     text-align: right;
     border-left-style: solid;
 }
-div.Collectivism {
+div.collect {
     background-color: #ED0C14;
     text-align: left;
     border-right-style: solid;
 }
-div.Individualism {
+div.individ {
     background-color: #3179C2;
     text-align: right;
     border-left-style: solid;
 }
-div.Reformation {
+div.reform {
     background-color: #ED0C14;
     text-align: left;
     border-right-style: solid;
 }
-div.Conservation {
+div.conserve {
     background-color: #3179C2;
     text-align: right;
     border-left-style: solid;
 }
-div.Tech & Progress {
+div.techprog {
     background-color: #ED0C14;
     text-align: left;
     border-right-style: solid;
 }
-div.Mammoth & Regress {
+div.mamregress {
     background-color: #3179C2;
     text-align: right;
     border-left-style: solid;
 }
-div.Libertarianism {
+div.libertare {
     background-color: #ED0C14;
     text-align: left;
     border-right-style: solid;
 }
-div.Authoritarianism {
+div.auth {
     background-color: #3179C2;
     text-align: right;
     border-left-style: solid;
 }
-div.Ecology & Other Left {
+div.ecolog {
     background-color: #ED0C14;
     text-align: left;
     border-left-style: solid;
 }
-div.Disecology & Other Right {
+div.diseco {
     background-color: #3179C2;
     text-align: right;
     border-right-style: solid;
 }
-div.Alternative Values {
-    background-color: #4F5C6E;
+div.altvalues {
+    background-color: #E0C0AA;
     text-align: left;
     border-right-style: solid;
 }
-div.Classic Values {
+div.classic {
     background-color: #C9793C;
     text-align: right;
     border-right-style: solid;
 }
-div.Violation {
-    background-color: #4F5C6E;
+div.violation {
+    background-color: #E0C0AA;
     text-align: left;
     border-right-style: solid;
 }
-div.Academicism {
+div.academic{
     background-color: #C9793C;
     text-align: right;
     border-right-style: solid;
