@@ -16,7 +16,7 @@ questions = {;
             "k": 0
         }
      },    
-   {
+     {
         "question": "Left-wing beliefs can change world in good way.",
         "effect": {
             "a": 0,
@@ -32,8 +32,8 @@ questions = {;
             "j": 0,
             "k": 0
         }
-      },
-    {
+     },
+     {
         "question": "Rotation is better than mainstream beliefs.",
         "effect": {
             "a": 0,
@@ -48,6 +48,6 @@ questions = {;
             "i": 0,
             "j": 100,
             "k": 100
-        }
+         }
       },
-   };
+  };
